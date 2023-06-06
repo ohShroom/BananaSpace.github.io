@@ -1,0 +1,20 @@
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    background-color: #040204;
+}
+
+#poem {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50em;
+}
+
+#lies {
+    scale:25%;
+    margin-left:20em;
+}

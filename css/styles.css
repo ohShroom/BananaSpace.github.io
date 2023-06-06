@@ -63,7 +63,9 @@ nav li:first-child {
 
 nav li a {
 	display: block;
-	color: #f0f6f0 ;
+	color: #FFE135 ;
+	background-color: #000;
+	border-radius: 10px;
 	padding: 0.5em 1em;
 	text-decoration: none;
 }
@@ -79,7 +81,7 @@ nav li a {
 
 /* Style rules for main content*/
 main {
-	background-color: #fff;
+	background-color: #f0f6f0;
 	padding: 2%;
 	font-size: 1.15em;
 	font-family: 'Roboto Slab', serif;
@@ -161,7 +163,7 @@ article:nth-of-type(2) {
 #backstory {
 	clear: left;
 	border: 1px solid #222323 ;
-	background: linear-gradient(to left, #013220 , #F5E216 );
+	background: linear-gradient(to left, #f0f6f0 , #F5E216 );
 	background-color: #f2f2f2;
 	padding: 1% 2%;
 }
@@ -181,12 +183,15 @@ article:nth-of-type(2) {
 }
 
 #contact .contact-email-link {
-	color: #666600;
+	color: #FFE135;
 	text-decoration: none;
+	background-color:#222323;
+	border-radius: 5px;
 }
 
 .map {
 	border: 2px solid #222323 ;
+	border-radius:10px;
 	width: 95%;
 	height: 50%;
 }
@@ -195,12 +200,12 @@ article:nth-of-type(2) {
 footer p {
 	font-size: 0.75em;
 	text-align: center;
-	color: #f0f6f0;
+	color: #ffffff;
 	padding: 0 1em;
 }
 
 footer p a {
-	color: #f0f6f0;
+	color: #ffffff ;
 	text-decoration: none;
 }
 
@@ -250,6 +255,7 @@ footer p a {
 	.pic-text {
 		font-size: 1em;
 		padding: 10px;
+		background-color:#b3b3b3;
 	}
 
 	aside {
@@ -361,6 +367,6 @@ footer p a {
 	
 	body {
 		background-color: #f0f6f0;
-		color: #222323 ;
+		color: #ffffff ;
 	}
 }
